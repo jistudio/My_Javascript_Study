@@ -1,0 +1,120 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+        color: #333;
+        font-size: 50px;
+        letter-spacing: 3px;
+        font-weight: lighter;
+    }
+    
+    .container {
+        width: 70vw;
+        min-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .controlbar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    select {
+        background: transparent;
+        border: 2px solid #ddd;
+        font-size: 17px;
+        height: 40px;
+        padding: 5px 10px;
+        border-radius: 0;
+        /*width: 100px;*/
+        /* If you add too much padding here, the options won't show in IE */
+
+  
+        width: 150px;
+        margin-right: 10px;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+    }
+    select:hover{
+        background-color: #f2f2f2;
+    } 
+    
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+
+
+    }
+ 
+    .btn-decrease,
+    .btn-increase {
+        font-weight: lighter;
+        color: transparent;
+        height: 36px;
+
+    }
+
+    
+    .btn-decrease {
+        background: url(images/minus_icon.svg)no-repeat center;
+    }
+    .btn-decrease:hover{
+        background-color: #f2f2f2;
+    }
+    
+    .btn-increase {
+        background: url(images/plus_icon.svg)no-repeat center;
+    }
+    .btn-increase:hover{
+        background-color: #f2f2f2;
+    }
+    
+    .button-group-scale {
+        border: 2px solid #ddd;
+        margin-right: 10px;
+    }
+    
+    .btn-lighter {
+        border: 5px solid #ddd;
+        margin-right: 5px;
+        }
+    
+
+    
+    .btn-darker {
+        background-color: #333;
+        color: #fff;
+         border: 5px solid #666;
+    }
+ 
+    textarea {
+        background-color: #f2f2f2;
+        border: none;
+        resize: none;
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        font-size: 24px;
+        height: 250px;
+        letter-spacing: 1px;
+    }
+    
+    input {
+        height: 34px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        width: 40px;
+        border: none;
+        background-color: transparent;
+    }

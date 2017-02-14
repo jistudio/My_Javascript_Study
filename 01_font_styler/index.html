@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>CHANGE FONT STYLE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>CHANGE FONT STYLE</h1>
+    <div class="container">
+        <div class="controlbar">
+            <select name="weight" id="weight">
+                <option>lighter</option>
+                <option selected>normal</option>
+                <option>bold</option>
+            </select>
+            <div class="button-group-scale" role="group">
+                <button type="button" class="btn-decrease" aria-label="text decrease">-</button>
+                <input type="text" value="24px">
+                <button type="button" class="btn-increase" aria-label="text increase">+</button>
+            </div>
+            <div class="button-group-color" role="group">
+                <button type="button" class="btn-lighter" aria-label="background color light">A</button>
+                <button type="button" class="btn-darker" aria-label="background color dark">A</button>
+            </div>
+        </div>
+        <textarea placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit..."></textarea>
+    </div>
+    <script src="../Resources/DOMHelper/index.js"></script>
+    <script src="text_scale.js"></script>
+</body>
+
+</html>
